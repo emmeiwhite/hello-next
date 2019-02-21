@@ -1,5 +1,6 @@
 import Layout from '../comps/MyLayout';
 
+/*
 const Index = ()=>{
     return (
         <Layout>
@@ -7,5 +8,13 @@ const Index = ()=>{
         </Layout>
     )
 }
+*/
 
-export default Index;
+const Index = ()=>(
+    <div>
+        <p>Index Page...</p>
+    </div>
+)
+export default ()=>(
+    <Layout page={Index}/>
+);

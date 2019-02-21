@@ -190,7 +190,13 @@ var Layout = function Layout(props) {
       lineNumber: 11
     },
     __self: this
-  }), props.children);
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(props.page, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -1179,7 +1185,7 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 /*!************************!*\
   !*** ./pages/about.js ***!
   \************************/
-/*! no exports provided */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1208,6 +1214,17 @@ var Page = function Page() {
     __self: this
   }, "This is the About Page");
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    page: Page,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  });
+});
 
 /***/ }),
 

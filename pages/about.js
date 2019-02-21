@@ -13,3 +13,7 @@ export default ()=>(
 const Page = ()=>(
     <p>This is the About Page</p>
 )
+
+export default ()=>(
+    <Layout page={Page}/>
+)
