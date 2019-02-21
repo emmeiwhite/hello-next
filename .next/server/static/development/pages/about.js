@@ -190,13 +190,7 @@ var Layout = function Layout(props) {
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(props.page, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }));
+  }), props.children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);

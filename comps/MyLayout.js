@@ -9,7 +9,8 @@ const styleLayout  = {
 const Layout = (props)=>(
     <div style={styleLayout}>
         <Header/>
-        <props.page/>
+        {/* <props.page/> */}
+        {props.children}
     </div>
 )
 
