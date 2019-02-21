@@ -15,5 +15,7 @@ const Page = ()=>(
 )
 
 export default ()=>(
-    <Layout page={Page}/>
+    <Layout>
+        <Page/>
+    </Layout>
 )
