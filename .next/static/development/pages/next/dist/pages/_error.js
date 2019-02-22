@@ -4564,7 +4564,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_9c75acfe53428ad7a9fa
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fhome%2Fimran%2FDocuments%2Fnextjs%2Fhello-next%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \*************************************************************************************************************************************************************************/
@@ -4587,5 +4587,5 @@ module.exports = dll_9c75acfe53428ad7a9fa;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=_error.js.map

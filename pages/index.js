@@ -10,9 +10,13 @@ import Link from 'next/link';
 
 // Let's create PostLink component for each post link
 
+// It's 22nd February... Let's learn ROUTE MASKING... To display our URL as other title ... Kind of mask the stuff
+
+//  ROUTE MASKING Zabardast
+
 const PostLink = (props)=>(
     <li>
-        <Link href={`/post?title=${props.title}`}>
+        <Link as={`/imran/${props.id}`} href={`/post?title=${props.title}`}>
           <a>{props.title}</a>
         </Link>
     </li>
@@ -24,9 +28,9 @@ const Index = ()=>{
             <h1>BLOG POST</h1>
 
             <ul>    
-                <PostLink title="Vue js"/>
-                <PostLink title="Angular js"/>
-                <PostLink title="React js"/>
+                <PostLink id="Vue-js" title="Vue js ki toh baat hi kuch oor hai"/>
+                <PostLink id="Angular-js" title="Angular js kabhi alwadi na kehna "/>
+                <PostLink id="React-js" title="React js ... Kal ho na Ho ..."/>
             </ul>
            
         </Layout>
